@@ -9,3 +9,8 @@ Resources:
         S3TablesDestination:
           BucketName: 'joy-s3tbl-bucket'
           TableName: 'joy-s3metadata-tbl'
+
+
+# aws s3tables create-table-bucket \
+#     --region us-east-1 \
+#     --name joy-s3tbl-bucket
